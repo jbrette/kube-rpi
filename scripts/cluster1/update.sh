@@ -6,7 +6,6 @@ cd $i
 echo "======================================================"
 echo $i
 echo "======================================================"
-# HTTPS_PROXY="http://one.proxy.att.com:8080" git pull
 git pull
 cd $GOODPATH
 done

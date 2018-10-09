@@ -1,4 +1,6 @@
 #!/bin/bash
+ORGPATH=`pwd`
+cd $HOME
 helm repo remove kubedge1
 helm repo remove hack4easy
 helm repo add kubedge1 'https://raw.githubusercontent.com/kubedge/helmrepos/arm32v7/kubedge1/'
@@ -15,3 +17,4 @@ helm install hack4easy/kubesim-nr-arm32v7
 helm install kubedge1/kubeplay-arm32v7
 helm install kubedge1/kubedge-arm32v7
 helm ls
+cd $ORGPATH
