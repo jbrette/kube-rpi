@@ -3,7 +3,7 @@ Kubernetes Utilties for Raspberry PI
 
 ## config
 
-The folder contains ansible playbook, backup of key config files and the 
+The folder contains ansible playbook, backup of key config files
 
 ## kube-deployment
 
